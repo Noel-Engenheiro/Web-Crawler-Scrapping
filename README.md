@@ -1,1 +1,2 @@
 # Web-Crowler-Scrapping
+Esse projeto foi desenvolvido em Java. Nesse sentido, foi realizado o WebCrowler e o Web Scrapping no site da Agência Nacional de Saúde, e o intuito é extrair informações. Desse modo, o projeto falta apenas realizar o Download de dois arquivos e está retornando todas as datas, quando deveria retornar de jan/2016 em diante. Diante disso, é necessário refatorar esses dois parâmetros.
