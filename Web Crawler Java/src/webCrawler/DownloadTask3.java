@@ -9,7 +9,7 @@ public class DownloadTask3 {
         public static void main(String[] args) throws IOException {
 
             URL url = new URL("https://www.gov.br/ans/pt-br/arquivos/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-tiss/padrao-tiss-tabelas-relacionadas/padrao-tiss-tabela-erros-envio-para-ans-padrao-tiss-08022019.xlsx");
-            File file = new File("Tabela de Erros.csv");
+            File file = new File("Tabela de Erros.xlsx");
 
             InputStream is = url.openStream();
             FileOutputStream fos = new FileOutputStream(file);
